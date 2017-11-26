@@ -1,0 +1,374 @@
+header {
+    padding: 20px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+.psd {
+    font-size: 16px;
+    color: #dd4b2b;
+    letter-spacing: 0.96px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+img:hover {
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-logo {
+    width: auto;
+    display: block;
+    height: auto;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.nav-menu {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li.nav-menu a {
+    color: #31353e;
+    padding: 5px 10px;
+    transition: all 0.2s ease;
+}
+
+li.nav-menu a:hover {
+    border-radius: 25px;
+    background-color: #dd4b2b;
+    color: #edeff1;
+    opacity: 0.8;
+}
+
+/* end header */
+
+/*main-section*/
+.main-section {
+    position: relative;
+}
+
+.main-info {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+}
+
+.list-main-section {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+}
+
+.list-main-section img {
+    display: block;
+    margin: 0 auto;
+}
+
+.any-button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    border-radius: 27px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    display: block;
+    max-width: 213px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.read-more {
+    color: #612316;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.read-more:hover {
+    background-color: #31353e;
+    color: #dd4b2b;
+    border: 1px solid rgba(221, 75, 43, 0.7);
+}
+
+h1 {
+    margin: 25px;
+}
+
+.main-text {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+    font-family: "Roboto Slab", serif;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+}
+
+.main-text-low {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.font-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/*end main section*/
+
+/*section our news*/
+.section-backround {
+    background-color: #edeff1;
+    color: #31353e;
+}
+
+.our-news-text {
+    margin: 0;
+    padding: 70px 0;
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.our-news-list {
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+
+.heading-text {
+    line-height: 30px;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button-text {
+    margin-top: 40px;
+    color: #4e5159;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/*end section our news*/
+
+/*section newsletter*/
+.newsletter-info {
+    padding: 60px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+.newsletter-info h2 {
+    font-family: "Roboto Slab",  sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.footer-newsletter-section {
+    background-image: url("../images/hamburgers.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 382px;
+    height: 100%;
+}
+
+.bring-text {
+    display: block;
+}
+
+form {
+    text-align: center;
+
+}
+
+form ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    max-width: 550px;
+}
+
+#email {
+    dislay:block;
+    padding:0 20px 0 36px;
+    border-bottom-left-radius: 27px;
+    border-top-left-radius: 27px;
+    width: 100%;
+    min-height: 50px;
+    height: 100%;
+    background-color: transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-top: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    border-right: 1px solid transparent;
+    color: #f3f4f6;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    z-index: 0;
+}
+
+.sign-up-button {
+    color: #612316;
+    background-color: #ffffff;
+}
+
+::-webkit-input-placeholder {
+    color: #f3f4f6;
+}
+::-moz-placeholder {
+    color: #f3f4f6;
+}
+
+input:focus {
+    outline: none;
+}
+
+.sign-up-button:hover {
+    cursor: pointer;
+    background-color: #31353e;
+    color: #dd4b2b;
+
+    z-index: 10000;
+}
+/*end newsletter*/
+
+/*section product details*/
+
+.font-button-product {
+    background-color: #4b4e73;
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.font-button-product:hover {
+    background-color: #dd4b2b;
+}
+
+.product-paragraph {
+    color: #191b29;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.width-list {
+    width: 50%;
+    box-sizing: border-box;
+}
+.img-block {
+    display: block;
+    box-sizing: border-box;
+    outline: 1px solid #ededed;
+    max-width: 585px;
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+}
+/*end section product details*/
+
+/*footer*/
+.bg-over-footer {
+    background-color: #d75d0e;
+    padding: 90px 0 70px 0;
+}
+.list-over-footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.list-over-footer a {
+    color: #ffffff;
+}
+
+.list-over-footer a:hover{
+    color: #612316;
+}
+
+.position-list-over-footer {
+    width: 33.33%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.footer-info {
+    padding: 70px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 24px;
+}
+
+.footer-paragraph {
+    margin: 13px 0;
+}
+
+.symu {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.symu:hover {
+    color: #612316;
+}
